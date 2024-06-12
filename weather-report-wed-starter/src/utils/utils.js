@@ -7,7 +7,8 @@ const formatDate = (dateString) => {
   return new Date(dateString).toLocaleDateString(undefined, options);
 };
 
-// Parse the data for use in components, including the weather icon, filtering for entries at 18:00:00
+// Parse the data for use in components, 
+// including the weather icon, filtering for entries at 18:00:00
 const parseForecastData = (forecastData) => {
 
 };
